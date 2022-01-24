@@ -1,1 +1,1 @@
-# Calcucator-fot-salary
+# Calcucator-for-salary
