@@ -79,9 +79,7 @@
             
             let salary = document.getElementById('salary').value;
 
-            function payrollPreparation(a) {
-                return Math.floor(a*0.805)
-            };
+            let payrollPreparation = (a) => Math.floor(a*0.805);
             let totalMoney = payrollPreparation(salary);
 
             if (salary >0) {
