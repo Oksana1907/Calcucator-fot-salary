@@ -74,29 +74,6 @@
         <div id="inner">
         </div>
     </div>
-    <script>
-        function render() {
-            
-            let salary = document.getElementById('salary').value;
-
-            let payrollPreparation = (a) => Math.floor(a*0.805);
-            let totalMoney = payrollPreparation(salary);
-
-            if (salary >0) {
-                let text = `
-                На руки вы сможете получить ${totalMoney} грн.
-                `;
-                totalMoney = document.getElementById('result').innerHTML = text;
-            } else {
-                document.getElementById("result").insertAdjacentHTML(
-                    "beforeend",
-                    `
-                    <div> Поле не должно быть пустым </div>
-                    `
-                    )
-
-            };
-        };
-    </script>
+    <script src="file.js"></script>
 </body>
 </html>
